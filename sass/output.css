@@ -49,7 +49,7 @@ body {
   font-family: Raleway;
   letter-spacing: 1px;
   color: #505050;
-  font-size: 30px; }
+  font-size: 35px; }
   body a {
     text-decoration: none;
     color: #505050; }
@@ -96,8 +96,8 @@ nav {
   nav ul {
     display: flex;
     align-items: center;
-    width: 500px;
-    border: 1px solid green;
+    width: 550px;
+    border: 1px solid blue;
     justify-content: space-between; }
 
 /*# sourceMappingURL=output.css.map */
