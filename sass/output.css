@@ -105,7 +105,6 @@ nav {
 footer {
   height: 5vh;
   width: 97%;
-  border: 1px solid red;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end; }
@@ -127,7 +126,6 @@ footer {
     height: 50px;
     background-image: url(../images/instagram.svg); }
   footer ul {
-    border: 1px solid blue;
     display: flex;
     align-items: center;
     justify-content: space-around;
