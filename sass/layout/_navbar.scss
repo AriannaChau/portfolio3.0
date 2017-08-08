@@ -15,16 +15,15 @@ nav {
     border-radius: 50%;
     font-size: 20px;
   }
-  .br {
-    height: 1px;
-    width: 150px;
-    background-color: $grey;
-  }
   ul {
     display: flex;
     align-items: center;
-    width: 550px;
-    border: 1px solid blue;
+    width: 520px;
     justify-content: space-between;
   }
+}
+.br {
+  height: 1px;
+  width: 150px;
+  background-color: $grey;
 }
