@@ -46,10 +46,16 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: Raleway; }
+  font-family: Raleway;
+  letter-spacing: 1px;
+  color: #505050; }
   body a {
     text-decoration: none;
     color: #505050; }
+
+.mobile-title {
+  font-size: 36px;
+  font-family: Playfair Display; }
 
 .hero {
   background-image: url(../images/hero.jpg);
@@ -64,7 +70,7 @@ body {
   .hero #landing-container {
     width: 827px;
     height: 600px;
-    background-color: black; }
+    background-color: rgba(237, 241, 248, 0.9); }
 
 nav {
   margin: 0 auto;
