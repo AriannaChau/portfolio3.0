@@ -47,33 +47,20 @@ table {
 
 body {
   font-family: Raleway;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #505050;
   font-size: 30px; }
   body a {
     text-decoration: none;
     color: #505050; }
 
-.mobile-title {
+h1 {
   font-size: 120px;
   font-family: Playfair Display; }
 
-.hero {
-  background-image: url(../images/hero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative; }
-  .hero #landing-container {
-    width: 827px;
-    height: 600px;
-    background-color: rgba(237, 241, 248, 0.9); }
-    .hero #landing-container h1, .hero #landing-container p {
-      margin: 30px 20px; }
+.mobile-title {
+  font-size: 120px;
+  font-family: Playfair Display; }
 
 nav {
   margin: 0 auto;
@@ -129,6 +116,41 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 400px; }
+    width: 430px; }
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .hero #landing-container {
+    width: 827px;
+    height: 600px;
+    background-color: rgba(237, 241, 248, 0.9); }
+    .hero #landing-container h1, .hero #landing-container p {
+      padding: 30px 20px; }
+
+.who-i-am {
+  width: 100%;
+  height: 42.5vh;
+  background-color: #EDF1F8; }
+  .who-i-am h1 {
+    padding: 30px 20px; }
+  .who-i-am p {
+    line-height: 55px;
+    width: 85%;
+    margin: 0 auto; }
+
+.what-i-do {
+  width: 100%;
+  height: 42.5vh;
+  background-color: #F7F0ED; }
+  .what-i-do h1 {
+    padding: 30px 20px; }
 
 /*# sourceMappingURL=output.css.map */

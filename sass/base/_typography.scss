@@ -1,12 +1,16 @@
 body {
   font-family: $body-font;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: $grey;
   font-size: $body-size;
   a {
     text-decoration: none;
     color: $grey;
   }
+}
+
+h1 {
+  @include title;
 }
 
 .mobile-title {
