@@ -9,6 +9,13 @@ body {
   }
 }
 
+p {
+  letter-spacing: 2;
+  line-height: 55px;
+  width: 85%;
+  margin: 0 auto;
+}
+
 h1 {
   @include title;
 }

@@ -54,6 +54,12 @@ body {
     text-decoration: none;
     color: #505050; }
 
+p {
+  letter-spacing: 2;
+  line-height: 55px;
+  width: 85%;
+  margin: 0 auto; }
+
 h1 {
   font-size: 120px;
   font-family: Playfair Display; }
@@ -64,7 +70,7 @@ h1 {
 
 nav {
   margin: 0 auto;
-  height: 10vh;
+  height: 100px;
   width: 97%;
   display: flex;
   justify-content: space-between;
@@ -90,7 +96,7 @@ nav {
   background-color: #505050; }
 
 footer {
-  height: 5vh;
+  height: 75px;
   width: 97%;
   margin: 0 auto;
   display: flex;
@@ -137,20 +143,24 @@ footer {
 
 .who-i-am {
   width: 100%;
-  height: 42.5vh;
+  height: 1000px;
   background-color: #EDF1F8; }
   .who-i-am h1 {
     padding: 30px 20px; }
-  .who-i-am p {
-    line-height: 55px;
-    width: 85%;
-    margin: 0 auto; }
 
 .what-i-do {
   width: 100%;
-  height: 42.5vh;
+  height: 1000px;
   background-color: #F7F0ED; }
   .what-i-do h1 {
     padding: 30px 20px; }
+
+.image-container {
+  display: flex;
+  justify-content: center; }
+  .image-container img {
+    width: 450px;
+    height: 350px;
+    margin-top: 50px; }
 
 /*# sourceMappingURL=output.css.map */

@@ -1,21 +1,25 @@
 .who-i-am {
 width: 100%;
-height: 42.5vh;
+height: 1000px;
 background-color: $blue;
 h1 {
   padding: 30px 20px;
 }
-p {
-  line-height: 55px;
-  width: 85%;
-  margin: 0 auto;
-}
 }
 .what-i-do {
   width: 100%;
-  height: 42.5vh;
+  height: 1000px;
   background-color: $cream;
   h1 {
     padding: 30px 20px;
+  }
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 450px;
+    height: 350px;
+    margin-top: 50px;
   }
 }
