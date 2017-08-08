@@ -2,6 +2,7 @@ body {
   font-family: $body-font;
   letter-spacing: 1px;
   color: $grey;
+  font-size: $body-size;
   a {
     text-decoration: none;
     color: $grey;
@@ -9,6 +10,5 @@ body {
 }
 
 .mobile-title {
-  font-size: $mobile-title;
-  font-family: $title;
+  @include title;
 }

@@ -48,13 +48,14 @@ table {
 body {
   font-family: Raleway;
   letter-spacing: 1px;
-  color: #505050; }
+  color: #505050;
+  font-size: 20px; }
   body a {
     text-decoration: none;
     color: #505050; }
 
 .mobile-title {
-  font-size: 36px;
+  font-size: 120px;
   font-family: Playfair Display; }
 
 .hero {
@@ -95,7 +96,8 @@ nav {
   nav ul {
     display: flex;
     align-items: center;
-    width: 350px;
+    width: 500px;
+    border: 1px solid green;
     justify-content: space-between; }
 
 /*# sourceMappingURL=output.css.map */
