@@ -209,5 +209,14 @@ input, #message {
   display: flex;
   align-items: center;
   justify-content: center; }
+  #button:hover {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(80, 80, 80, 0); }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #505050; } }
+h1 {
+  padding: 30px 20px; }
 
 /*# sourceMappingURL=output.css.map */
