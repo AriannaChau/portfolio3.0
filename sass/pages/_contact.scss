@@ -14,10 +14,18 @@ input {
   background-color: $cream;
   display: flex;
   flex-direction: column;
-  margin: 130px;
+  margin: 110px;
+  font-size: 20px;
   &:focus {
     outline: none;
   }
+}
+#message {
+  @extend input;
+  border: 1px solid $grey;
+  height: 200px;
+  background-color: $blue;
+  color: $grey;
 }
 .form-body {
   background-color: $cream;
@@ -27,10 +35,17 @@ input {
   justify-content: center;
   align-items: center;
 }
+
 #button {
-  width: 80px;
+  width: 170px;
+  height: 70px;
   letter-spacing: 2px;
   font-family: $body-font;
   border: 1px solid $grey;
   background-color: $blue;
+  margin: 0 auto;
+  color: $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -169,7 +169,7 @@ footer {
   margin-left: 20px;
   margin-top: 30px; }
 
-input {
+input, #message {
   border: none;
   border-bottom: 1px solid #505050;
   letter-spacing: 2px;
@@ -178,9 +178,16 @@ input {
   background-color: #F7F0ED;
   display: flex;
   flex-direction: column;
-  margin: 130px; }
-  input:focus {
+  margin: 110px;
+  font-size: 20px; }
+  input:focus, #message:focus {
     outline: none; }
+
+#message {
+  border: 1px solid #505050;
+  height: 200px;
+  background-color: #EDF1F8;
+  color: #505050; }
 
 .form-body {
   background-color: #F7F0ED;
@@ -191,10 +198,16 @@ input {
   align-items: center; }
 
 #button {
-  width: 80px;
+  width: 170px;
+  height: 70px;
   letter-spacing: 2px;
   font-family: Raleway;
   border: 1px solid #505050;
-  background-color: #EDF1F8; }
+  background-color: #EDF1F8;
+  margin: 0 auto;
+  color: #505050;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=output.css.map */
