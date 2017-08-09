@@ -1,0 +1,36 @@
+.contact-title {
+  width: 800px;
+  background-color: $blue;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid $grey;
+  letter-spacing: 2px;
+  font-family: $body-font;
+  width: 500px;
+  background-color: $cream;
+  display: flex;
+  flex-direction: column;
+  margin: 130px;
+  &:focus {
+    outline: none;
+  }
+}
+.form-body {
+  background-color: $cream;
+  margin-top: 100px;
+  height: 48em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button {
+  width: 80px;
+  letter-spacing: 2px;
+  font-family: $body-font;
+  border: 1px solid $grey;
+  background-color: $blue;
+}
