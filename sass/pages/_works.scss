@@ -17,7 +17,7 @@ h1 {
 }
 
 .the-hub {
-  height: 1400px;
+  height: 100%;
   background-color: $cream;
   .web-screenshot {
     background-image: url(../images/thehub.png);
@@ -25,7 +25,7 @@ h1 {
 }
 
 .socialcodus {
-  height: 1130px;
+  height: 100%;
   background-color: $blue;
   .web-screenshot {
     background-image: url(../images/socialcodus.png);
@@ -33,12 +33,12 @@ h1 {
 }
 
 .natgeo {
-  height: 1240px;
+  height: 100%;
   background-color: $cream;
 }
 
 .arhaus {
-  height: 1430px;
+  height: 100%;
   background-color: $blue;
   .web-screenshot {
     background-image: url(../images/arhaus.png);

@@ -136,8 +136,8 @@ footer {
   align-items: center;
   position: relative; }
   .hero #landing-container {
-    width: 827px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
     background-color: rgba(237, 241, 248, 0.9); }
     .hero #landing-container h1, .hero #landing-container p {
       padding: 30px 20px; }
@@ -233,23 +233,23 @@ h1 {
   margin: 15px auto; }
 
 .the-hub {
-  height: 1400px;
+  height: 100%;
   background-color: #F7F0ED; }
   .the-hub .web-screenshot {
     background-image: url(../images/thehub.png); }
 
 .socialcodus {
-  height: 1130px;
+  height: 100%;
   background-color: #EDF1F8; }
   .socialcodus .web-screenshot {
     background-image: url(../images/socialcodus.png); }
 
 .natgeo {
-  height: 1240px;
+  height: 100%;
   background-color: #F7F0ED; }
 
 .arhaus {
-  height: 1430px;
+  height: 100%;
   background-color: #EDF1F8; }
   .arhaus .web-screenshot {
     background-image: url(../images/arhaus.png);

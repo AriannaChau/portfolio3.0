@@ -9,11 +9,16 @@
   align-items: center;
   position: relative;
   #landing-container {
-    width: 827px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
     background-color: rgba(237, 241, 248, .9);
     h1, p {
       padding: 30px 20px;
     }
   }
 }
+ body {
+   @include breakpoint {
+    //  background-color: red;
+   }
+ }

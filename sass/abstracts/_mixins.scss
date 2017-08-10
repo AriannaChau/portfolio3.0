@@ -2,3 +2,9 @@
   font-size: $mobile-title;
   font-family: $title;
 }
+
+@mixin breakpoint {
+  @media #{$breakpoint} {
+    @content;
+  }
+}
