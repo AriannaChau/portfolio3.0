@@ -2,7 +2,6 @@ body {
   font-family: $body-font;
   letter-spacing: 2px;
   color: $grey;
-  font-size: $body-size;
   a {
     text-decoration: none;
     color: $grey;
@@ -14,6 +13,8 @@ p {
   line-height: 55px;
   width: 85%;
   margin: 0 auto;
+  font-size: $body-size;
+
 }
 
 h1 {
