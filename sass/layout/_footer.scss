@@ -1,13 +1,29 @@
 footer {
-  height: 75px;
+  height: 55px;
+  border: 1px solid red;
   width: 97%;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
+  ul {
+    @include breakpoint {
+      // flex-direction: column;
+      li {
+        margin: 10px;
+      }
+      li:nth-of-type(1) {
+        // transform: rotate(90deg);
+        margin-bottom: 30px;
+      }
+    }
+  }
+
   #linkedin {
     width: 50px;
     height: 50px;
     background-image: url(../images/linkedin.svg);
+    @include breakpoint {
+    }
   }
   #github {
     width: 50px;
@@ -19,6 +35,8 @@ footer {
     width: 50px;
     height: 50px;
     background-image: url(../images/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
   #instagram {
     width: 50px;

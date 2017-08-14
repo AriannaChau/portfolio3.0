@@ -19,6 +19,40 @@
 }
  body {
    @include breakpoint {
-    //  background-color: red;
+     display: flex;
+     flex-wrap: wrap;
    }
  }
+
+.hero {
+  @include breakpoint {
+    width: 800px;
+    margin: 20px 30px;
+    position: relative;
+  }
+  #landing-container {
+    @include breakpoint {
+      position: absolute;
+      left: 50%;
+    }
+  }
+}
+
+// #landing-container {
+//   @include breakpoint {
+//     // position: absolute;
+//     background-color: red;
+//   }
+// }
+
+footer {
+  @include breakpoint {
+  }
+}
+
+nav ul {
+  @include breakpoint {
+    // transform: rotate(90deg);
+    border: 1px solid red;
+  }
+}
